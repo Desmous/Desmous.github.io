@@ -66,7 +66,7 @@ function myFunction() {
 </script>
 	
 <script>
-var CalcBMI = function(){
+var calcBMI = function(){
 	var height = document.getElementById("HeightI")
 	var weight = document.getElementById("WeightI")
 	var BMI = weight/(height*height);
@@ -99,6 +99,8 @@ body {
 	
 <input type="text" id="HeightI" value="0">
 <input type="text" id="WeightI" value="0">
+
+<button onclick="calcBMI()">Click Me</button>
 
 <p class="animated bounceInLeft delay-1s" style="font-size: 30px;">Facts about me</p>
 
