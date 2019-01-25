@@ -66,12 +66,12 @@ function myFunction() {
 </script>
 	
 <script>
-function BMI() {
+function CalcBMI() {
 	var height=prompt("What is your height?");
 	var weight=prompt("What is your weight?");
-	var BMI=weight/(height*height);
+	var BMI = weight/(height*height);
 	if (BMI>30) {
-		alert("hi");
+		alert("You are super fat")
 }
 
 </script>
@@ -97,7 +97,7 @@ body {
 	
 <button onclick="myFunction()">Click Me</button>
 	
-<button onclick="BMI()">BMI</button>
+<button onclick="CalcBMI()">BMI</button>
   
 <p class="animated bounceInLeft delay-1s" style="font-size: 30px;">Facts about me</p>
 
